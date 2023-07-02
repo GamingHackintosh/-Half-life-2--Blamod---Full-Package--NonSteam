@@ -4,4 +4,4 @@
 
 *In which problems with maps were fixed - cutscenes, as well as optimization - switching to the NonSteam version*
 
-![Image alt](https://github.com/GamingHackintosh/Half-life-2-Blamod-Full-Package---NonSteam/main/blamod_logo.png)
+![Image alt](blamod_logo.png)

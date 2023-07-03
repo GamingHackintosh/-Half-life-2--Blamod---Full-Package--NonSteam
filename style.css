@@ -13,20 +13,6 @@ body {
 }
 
 /* Шапка */
-.header {
-  background-image: url('https://github.com/GamingHackintosh/Half-life-2--Blamod/raw/main/blamod_logo.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: #fff;
-  text-align: center;
-}
-
 .header h1 {
   margin: 0;
   font-size: 36px;

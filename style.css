@@ -5,7 +5,7 @@
 /* Общие стили */
 @font-face {
   font-family: 'Appetite';
-  src: url('appetite-italic.woff') format('woff');
+  src: url('https://github.com/GamingHackintosh/Half-life-2--Blamod/raw/main/appetite-italic.woff') format('woff');
 }
 
 h1 {

@@ -65,8 +65,7 @@ body {
 
 /* Контент */
 .content {
-  background-color: #00ced1; /* Бирюзовый цвет подложки */
-  color: #fff; /* Белый цвет текста */
+  background-color: #eaeaea;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -75,11 +74,15 @@ body {
 .content h2 {
   margin-top: 0;
   font-size: 28px;
-  color: #ff6f61;
+  color: #00ced1; /* Бирюзовый цвет */
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .content p {
   margin-bottom: 20px;
+  color: #00ced1; /* Бирюзовый цвет */
 }
 
 /* Кнопка */
@@ -95,6 +98,8 @@ body {
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background-color: #f9f9f9;
+  color: #00ced1; /* Бирюзовый цвет */
 }
 
 .button:hover {

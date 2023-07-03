@@ -1,109 +1,101 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* Общие стили */
-    body {
-      background-image: url('https://github.com/GamingHackintosh/Half-life-2--Blamod/raw/main/images.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+/* Общие стили */
+body {
+  background-image: url('https://github.com/GamingHackintosh/Half-life-2--Blamod/raw/main/images.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-    /* Навигация */
-    .navbar {
-      background-color: #1c1c1c;
-      padding: 10px;
-    }
+/* Шапка */
+.header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
 
-    .navbar ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      text-align: center;
-    }
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
 
-    .navbar ul li {
-      display: inline-block;
-      margin-right: 10px;
-    }
+/* Навигация */
+.navbar {
+  background-color: #1c1c1c;
+  padding: 10px;
+}
 
-    .navbar ul li a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: color 0.3s ease;
-    }
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
 
-    .navbar ul li a:hover {
-      color: #ff6f61;
-    }
+.navbar ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
 
-    /* Контент */
-    .content {
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
 
-    .content h2 {
-      margin-top: 0;
-      font-size: 28px;
-      color: #ff6f61;
-      background-color: #f9f9f9;
-      padding: 10px;
-      border-radius: 5px;
-    }
+.navbar ul li a:hover {
+  color: #ff6f61;
+}
 
-    .content p {
-      margin-bottom: 20px;
-    }
+/* Контент */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-    /* Кнопка */
-    .button {
-      display: inline-block;
-      background-color: #ff6f61;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 3px;
-      font-size: 18px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      background-color: #f9f9f9;
-    }
+.content h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #ff6f61;
+}
 
-    .button:hover {
-      background-color: #e55c52;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="content">
-      <h2>About the Mod</h2>
-      <p>
-        Provide a brief description of your mod here, highlighting its features and what players can expect when they install it.
-      </p>
-      <h2>Download</h2>
-      <p>
-        <a class="button" href="https://cld-unzipper2.datacloudmail.ru/unzip/attach/7Z57QXYfTjE7krcEZPidiB8MbS7SKVSKHs5L6rNSv4ixbyKRNRmbowgmfVQzE3Ma1YBJpQ/Half-life-2-Blamod-Full-Package---NonSteam.rar">Mod</a>
-      </p>
-    </div>
-  </div>
-</body>
-</html>
+.content p {
+  margin-bottom: 20px;
+}
+
+/* Кнопка */
+.button {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e55c52;
+}

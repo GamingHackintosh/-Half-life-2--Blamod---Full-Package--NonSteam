@@ -13,6 +13,16 @@ body {
 }
 
 /* Шапка */
+.header {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
 .header h1 {
   margin: 0;
   font-size: 36px;

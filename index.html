@@ -14,7 +14,105 @@
       font-family: 'Appetite', sans-serif;
     }
 
-    /* Стили для мобильных устройств */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Шапка */
+    .header {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+    }
+
+    /* Навигация */
+    .navbar {
+      background-color: #1c1c1c;
+      padding: 10px;
+    }
+
+    .navbar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+    }
+
+    .navbar ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    .navbar ul li a:hover {
+      color: #ff6f61;
+    }
+
+    /* Контент */
+    .content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      margin-top: 0;
+      font-size: 28px;
+      color: #ff6f61;
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+    }
+
+    /* Кнопка */
+    .button {
+      display: inline-block;
+      background-color: #ff6f61;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 3px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      background-color: #f9f9f9;
+    }
+
+    .button:hover {
+      background-color: #e55c52;
+    }
+
+    /* Адаптивные стили для мобильных устройств */
     @media (max-width: 768px) {
       .container {
         padding: 10px;
@@ -24,8 +122,9 @@
         font-size: 24px;
       }
       
-      .navbar ul li {
-        margin-right: 5px;
+      .navbar ul li a {
+        padding: 5px;
+        font-size: 14px;
       }
       
       .content {
@@ -33,12 +132,12 @@
       }
       
       .content h2 {
-        font-size: 24px;
+        font-size: 20px;
       }
       
       .button {
-        font-size: 16px;
         padding: 8px 16px;
+        font-size: 14px;
       }
     }
   </style>
@@ -52,7 +151,8 @@
       </p>
       <h2>Download</h2>
       <p>
-        <a class="button" href="https://cloud.mail.ru/public/3Aqv/8xDhnJVrc">Mod</a>
+        <a class="button" href="https://yadi.sk/d/example-link">Yandex Disk</a>
+        <a class="button" href="https://drive.google.com/file/d/example-link">Google Disk</a>
       </p>
     </div>
   </div>
